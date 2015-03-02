@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_rater_explanation">¿Qué te parece esta aplicación? Nos encantaría que la valorases en Google Play. ¡Gracias por tu apoyo!</string>
+	<string name="app_rater_later">Más tarde</string>
+	<string name="app_rater_never">No, gracias</string>
+	<string name="app_rater_now">Valorar ahora</string>
+	<string name="app_rater_title">Valorar esta aplicación</string>
+	<string name="are_you_sure">¿Estás seguro?</string>
+	<string name="cancel">Cancelar</string>
+	<string name="help">Ayuda</string>
+	<string name="how_it_works">Cómo se juega</string>
+	<string name="intro_more_help">Para más información, pulsa los tres puntos verticales de la esquina superior derecha y selecciona \"Ayuda\".\n\nPara compartir tu puntuación más alta con tus amigos, presiona el botón \"compartir\" (a la izquierda de los puntos verticales).</string>
+	<string name="intro_start">¡Comenzar!</string>
+	<string name="invitation_teaser">¡Intenta superarme en 2048 para Android!\n\n%s</string>
+	<string name="leave">Abandonar</string>
+	<string name="meta_credits_title">Créditos:</string>
+	<string-array name="meta_description">
+		<item>¡Une los números y llega a la casilla 2048!</item>
+		<item>Desliza el dedo para mover las casillas en la dirección deseada.</item>
+		<item>Cuando dos casillas con el mismo número colisionan, se fusionarán en una sola.</item>
+		<item>2048 es un rompecabezas muy adictivo, y el más duro de todos.</item>
+		<item>Ganas cuando consigues la casilla 2048 en el tablero.</item>
+		<item>Pero tu puntuación puede ser incluyo mayor que 2048. ¡Combina tantas casillas como puedas!</item>
+		<item>Si el tablero está bloqueado y no puedes mover más casillas, ¡pierdes!</item>
+		<item>Los primeros movimientos son sencillos, pero ¿puedes llegar a conseguir la casilla 2048?</item>
+		<item>2048 está disponible para todos los teléfonos y tabletas con Android 2.2 y superior.</item>
+		<item>Sin anuncios. No hay compras dentro del juego.</item>
+		<item>2048 es 100% gratis.</item>
+	</string-array>
+	<string name="meta_libraries_title">Esta aplicación utiliza las siguientes bibliotecas y componentes:</string>
+	<string name="meta_share_title">Compartir enlace:</string>
+	<string name="meta_translate_title">Ayudar a traducir:</string>
+	<string name="meta_translators_title">Gracias a nuestros traductores:</string>
+	<string name="new_game">Nueva partida</string>
+	<string name="new_game_sure">¿Deseas empezar una nueva partida?</string>
+	<string name="next">Continuar</string>
+	<string name="ok">Aceptar</string>
+	<string name="share_screenshot_error">No se ha podido obtener la captura de pantalla para compartirla</string>
+	<string name="share_with_friends">Comparte con tus amigos</string>
+</resources>

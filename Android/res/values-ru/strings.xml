@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_rater_explanation">Вам нравится наше приложение? Мы будем Вам очень признательны, если Вы оцените наше приложение на Google Play. Спасибо за Вашу поддержку!</string>
+	<string name="app_rater_later">Позже</string>
+	<string name="app_rater_never">Нет, спасибо</string>
+	<string name="app_rater_now">Оценить</string>
+	<string name="app_rater_title">Оценить приложение</string>
+	<string name="are_you_sure">Are you sure?</string>
+	<string name="cancel">Отмена</string>
+	<string name="help">Помощь</string>
+	<string name="how_it_works">How it works</string>
+	<string name="intro_more_help">You can get more help at any time by pressing the three dots in the top-right corner.\n\nBy pressing the \"Share\" symbol (to the left of the dots), you can share your best score with your friends.</string>
+	<string name="intro_start">Let\'s start</string>
+	<string name="invitation_teaser">Challenge me in 2048 for Android!\n\n%s</string>
+	<string name="leave">Выйти</string>
+	<string name="meta_credits_title">Список разработчиков:</string>
+	<string-array name="meta_description">
+		<item>Присоединяйтесь и достигните ячейки с номером 2048!</item>
+		<item>Просто щёлкните, чтобы передвинуть ячейки в нужном направлении.</item>
+		<item>Когда ячейки с одинаковым номером сталкиваются, они сливаются в одну.</item>
+		<item>Игра 2048 - необычайно захватывающая головоломка, и одновременно самая сложная.</item>
+		<item>Чтобы выиграть, необходимо пройти до последней, 2048-ой ячейки на поле.</item>
+		<item>Но Ваш счет не ограничивается числом 2048 - объединяйте как можно больше ячеек!</item>
+		<item>Если всё поле заблокировано и нельзя передвинуть ни одну ячейку - Вы проиграли!</item>
+		<item>Первые движения очень просты, но попробуйте дойти до ячеки 2048?</item>
+		<item>Игра 2048 поддерживается любым телефоном и планшетом с версией Android 2.2 и выше.</item>
+		<item>Никакой рекламы и встроенных покупок!</item>
+		<item>Игра 2048 на 100% fбесплатна.</item>
+	</string-array>
+	<string name="meta_libraries_title">Данное приложение использует следующие библиотеки и компоненты:</string>
+	<string name="meta_share_title">Поделиться ссылкой:</string>
+	<string name="meta_translate_title">Помощь с переводом:</string>
+	<string name="meta_translators_title">Thanks to our translators:</string>
+	<string name="new_game">New game</string>
+	<string name="new_game_sure">Do you really want to start a new game?</string>
+	<string name="next">Continue</string>
+	<string name="ok">Ok</string>
+	<string name="share_screenshot_error">Could not prepare the screenshot for sharing</string>
+	<string name="share_with_friends">Поделиться с друзьями</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_rater_explanation">How do you like this app? We would be very happy if you could rate our application on Google Play. Thanks for your support!</string>
+	<string name="app_rater_later">Later</string>
+	<string name="app_rater_never">No, thanks</string>
+	<string name="app_rater_now">Rate now</string>
+	<string name="app_rater_title">Rate this app</string>
+	<string name="are_you_sure">Are you sure?</string>
+	<string name="cancel">Cancel</string>
+	<string name="help">Help</string>
+	<string name="how_it_works">How it works</string>
+	<string name="intro_more_help">You can get more help at any time by pressing the three dots in the top-right corner.\n\nBy pressing the \"Share\" symbol (to the left of the dots), you can share your best score with your friends.</string>
+	<string name="intro_start">Let\'s start</string>
+	<string name="invitation_teaser">Challenge me in 2048 for Android!\n\n%s</string>
+	<string name="leave">Leave</string>
+	<string name="meta_credits_title">Credits:</string>
+	<string-array name="meta_description">
+		<item>Join the numbers and get to the cell with 2048!</item>
+		<item>Just swipe to move the cells in the desired direction.</item>
+		<item>When two cells with the same number collide, they will merge into one.</item>
+		<item>2048 is an addictive puzzle game, and it\'s the hardest of them all.</item>
+		<item>You\'ll win as soon as you\'ve reached the final 2048 cell on the field.</item>
+		<item>But your score can even go beyond 2048. Merge as many cells as possible!</item>
+		<item>If the field is blocked and you cannot move cells anymore, you\'ve lost!</item>
+		<item>The first moves are simple, but will you really get to cell 2048?</item>
+		<item>2048 is available for all phones and tablets with Android 2.2+.</item>
+		<item>No ads. No in-app purchases.</item>
+		<item>2048 is 100% free.</item>
+	</string-array>
+	<string name="meta_libraries_title">This app uses the following libraries and components:</string>
+	<string name="meta_share_title">Share link:</string>
+	<string name="meta_translate_title">Help translate:</string>
+	<string name="meta_translators_title">Thanks to our translators:</string>
+	<string name="new_game">New game</string>
+	<string name="new_game_sure">Do you really want to start a new game?</string>
+	<string name="next">Continue</string>
+	<string name="ok">OK</string>
+	<string name="share_screenshot_error">Could not prepare the screenshot for sharing</string>
+	<string name="share_with_friends">Share with friends</string>
+</resources>

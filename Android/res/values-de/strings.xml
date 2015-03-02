@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_rater_explanation">Wie gefällt Dir diese App? Wir würden uns sehr freuen, wenn Du unsere Anwendung auf Google Play bewerten könntest. Danke für Deine Unterstützung!</string>
+	<string name="app_rater_later">Später</string>
+	<string name="app_rater_never">Nein, danke</string>
+	<string name="app_rater_now">Jetzt bewerten</string>
+	<string name="app_rater_title">Diese App bewerten</string>
+	<string name="are_you_sure">Bist Du sicher?</string>
+	<string name="cancel">Abbrechen</string>
+	<string name="help">Hilfe</string>
+	<string name="how_it_works">So funktioniert\'s</string>
+	<string name="intro_more_help">Du kannst jederzeit mehr Hilfe erhalten, indem Du die drei Punkte rechts oben in der Ecke drückst.\n\nIndem Du das \"Teilen\"-Symbol (links neben den Punkten) drückst, kannst Du Deine beste Punktzahl mit Deinen Freunden teilen.</string>
+	<string name="intro_start">Los geht\'s</string>
+	<string name="invitation_teaser">Fordere mich in 2048 für Android heraus!\n\n%s</string>
+	<string name="leave">Verlassen</string>
+	<string name="meta_credits_title">Credits:</string>
+	<string-array name="meta_description">
+		<item>Verbinde die Zahlen und erreiche das Feld 2048!</item>
+		<item>Wische einfach, um die Felder in die gewünschte Richtung zu bewegen!</item>
+		<item>Wenn zwei Felder mit der gleichen Zahl aufeinander treffen, verschmelzen sie zu einem einzigen.</item>
+		<item>2048 ist ein süchtig machendes Puzzle-Spiel, und es ist das schwierigste von allen!</item>
+		<item>Du gewinnst, sobald Du auf dem Spielfeld das letzte Feld mit der 2048 erreicht hast.</item>
+		<item>Aber Deine Punktzahl kann sogar noch höher als 2048 gehen. Verschmelze so viele Felder wie möglich!</item>
+		<item>Wenn das Spielfeld blockiert ist und Du keine Felder mehr bewegen kannst, hast Du verloren!</item>
+		<item>Die ersten Züge sind einfach, aber wirst Du wirklich das Feld 2048 erreichen?</item>
+		<item>2048 ist für alle Smartphones und Tablets mit Android 2.2+ verfügbar.</item>
+		<item>Keine Werbung. Keine In-App-Käufe.</item>
+		<item>2048 ist zu 100% kostenlos.</item>
+	</string-array>
+	<string name="meta_libraries_title">Diese App nutzt die folgenden Bibliotheken und Komponenten:</string>
+	<string name="meta_share_title">Link teilen:</string>
+	<string name="meta_translate_title">Hilf beim Übersetzen:</string>
+	<string name="meta_translators_title">Danke an unsere Übersetzer:</string>
+	<string name="new_game">Neues Spiel</string>
+	<string name="new_game_sure">Möchtest Du wirklich ein neues Spiel starten?</string>
+	<string name="next">Weiter</string>
+	<string name="ok">OK</string>
+	<string name="share_screenshot_error">Screenshot konnte nicht zum Teilen vorbereitet werden</string>
+	<string name="share_with_friends">Mit Freunden teilen</string>
+</resources>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/share_with_friends"
+        android:showAsAction="always"
+        android:title="@string/share_with_friends"
+        android:icon="@drawable/ic_ab_share" />
+    <item
+        android:id="@+id/help"
+        android:showAsAction="always"
+        android:title="@string/help"
+        android:icon="@drawable/ic_ab_help" />
+    <item
+        android:id="@+id/new_game"
+        android:showAsAction="always"
+        android:title="@string/new_game"
+        android:icon="@drawable/ic_ab_restart" />
+</menu>

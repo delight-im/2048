@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+	<EditText
+		android:id="@+id/editTextShareText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="text|textMultiLine"
+		android:lines="5"
+		android:minLines="5"
+		android:textSize="@dimen/fontsize_normal"
+		android:gravity="top|left"
+		android:scrollbars="vertical" />
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	    <ImageView
+	        android:id="@+id/imageViewSharePicture"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="8dp"
+	        android:contentDescription="@string/share_with_friends" />
+    </ScrollView>
+</LinearLayout>

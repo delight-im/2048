@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_rater_explanation">Vous aimez l\'application ? Nous apprécierions que vous l\'évaluiez sur Google Play. Merci de votre soutien !</string>
+	<string name="app_rater_later">Plus tard</string>
+	<string name="app_rater_never">Non, merci</string>
+	<string name="app_rater_now">Évaluer maintenant</string>
+	<string name="app_rater_title">Évaluer cette application</string>
+	<string name="are_you_sure">Are you sure?</string>
+	<string name="cancel">Annuler</string>
+	<string name="help">Aide</string>
+	<string name="how_it_works">How it works</string>
+	<string name="intro_more_help">You can get more help at any time by pressing the three dots in the top-right corner.\n\nBy pressing the \"Share\" symbol (to the left of the dots), you can share your best score with your friends.</string>
+	<string name="intro_start">Let\'s start</string>
+	<string name="invitation_teaser">Challenge me in 2048 for Android!\n\n%s</string>
+	<string name="leave">Quitter</string>
+	<string name="meta_credits_title">Crédits :</string>
+	<string-array name="meta_description">
+		<item>Connectez les nombres et atteignez la cellule 2048 !</item>
+		<item>Faites glisser pour déplacer les cellules dans la direction souhaitée.</item>
+		<item>Quand deux cellules doté du même nombre se touchent, elles fusionnent.</item>
+		<item>2048 est un jeu de réflexion addictif, et c\'est le plus difficile de tous.</item>
+		<item>Vous gagnez dès que vous avez atteignez la cellule finale 2048.</item>
+		<item>Votre score peut même dépasser 2048. Fusionnez autant de cellules que possible !</item>
+		<item>Si le champ est bloqué et que vous ne pouvez plus déplacer de cellules, vous avez perdu !</item>
+		<item>Les premiers mouvements sont simples, mais avez-vous ce qu\'il faut pour atteindre la cellule 2048 ?</item>
+		<item>2048 est disponible pour tous les téléphones et tablettes avec Android 2.2 +.</item>
+		<item>Aucune publicité. Aucun achat intégré.</item>
+		<item>2048 est 100% gratuit.</item>
+	</string-array>
+	<string name="meta_libraries_title">Cette application utilise les bibliothèques et composants suivants :</string>
+	<string name="meta_share_title">Partager le lien :</string>
+	<string name="meta_translate_title">Aider à traduire :</string>
+	<string name="meta_translators_title">Thanks to our translators:</string>
+	<string name="new_game">New game</string>
+	<string name="new_game_sure">Do you really want to start a new game?</string>
+	<string name="next">Continue</string>
+	<string name="ok">OK</string>
+	<string name="share_screenshot_error">Could not prepare the screenshot for sharing</string>
+	<string name="share_with_friends">Partagez avec des amis</string>
+</resources>

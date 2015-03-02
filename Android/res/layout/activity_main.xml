@@ -1,0 +1,17 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center">
+	<im.delight.a2048.GameWebView
+		android:id="@+id/webviewGame"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="gone" />
+	<ProgressBar
+		android:id="@+id/viewProgress"
+		android:layout_width="64dp"
+		android:layout_height="64dp"
+		android:layout_gravity="center"
+		android:visibility="visible" />
+</FrameLayout>

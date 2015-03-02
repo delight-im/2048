@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_rater_explanation">Máte rádi tuto aplikaci? Budeme rádi když jí ohodnotíte v Obchodě Play. Děkujeme za vaší podporu!</string>
+	<string name="app_rater_later">Později</string>
+	<string name="app_rater_never">Ne děkuji</string>
+	<string name="app_rater_now">Ohodnotit</string>
+	<string name="app_rater_title">Ohodnotit aplikaci</string>
+	<string name="are_you_sure">Are you sure?</string>
+	<string name="cancel">Zrušit</string>
+	<string name="help">Nápověda</string>
+	<string name="how_it_works">Jak to funguje?</string>
+	<string name="intro_more_help">Další nápovědu můžete získat kliknutím na tři tečky v pravém horním rohu.\n\nKliknutím na symbol sdílení (nalevo od tří teček) můžete sdílet vaše nejlepší skóre s práteli.</string>
+	<string name="intro_start">Začněme</string>
+	<string name="invitation_teaser">Poraž mě v 2048 pro Android!\n\n%s</string>
+	<string name="leave">Odejít</string>
+	<string name="meta_credits_title">Zásluhy:</string>
+	<string-array name="meta_description">
+		<item>Spojujte čísla a vytvořte kostku s hodnotou 2048!</item>
+		<item>Šoupněte prstem po obrazovce abyste pohnuli kostkami v daném směru.</item>
+		<item>Když se srazí dvě kostky se stejnou hodnotou, zůstane jen jedna.</item>
+		<item>2048 je návykové puzzle a je ze všech nejtěžší.</item>
+		<item>Vyhrajete jakmile dosáhnete kostky s hodnotou 2048.</item>
+		<item>Ale vaše skóre může být větší než 2048. Spojujte tolik kostek kolik jen bude možné!</item>
+		<item>Pokud nemůžete pohnout s kostkami, prohráli jste!</item>
+		<item>První tahy jsou jednoduché, ale dostanete se ke kostce s hodnotou 2048?</item>
+		<item>2048 je dostupná pro telefony a tablety s Andriodem 2.2 a vyšším.</item>
+		<item>Žádné reklamy. Žádné nákupy v aplikaci.</item>
+		<item>2048 je zcela zdarma.</item>
+	</string-array>
+	<string name="meta_libraries_title">Tato aplikace používá následující knihovny a součásti:</string>
+	<string name="meta_share_title">Sdílet odkaz:</string>
+	<string name="meta_translate_title">Pomozte přeložit:</string>
+	<string name="meta_translators_title">Díky našim překladatelům:</string>
+	<string name="new_game">Nová hra</string>
+	<string name="new_game_sure">Do you really want to start a new game?</string>
+	<string name="next">Pokračovat</string>
+	<string name="ok">OK</string>
+	<string name="share_screenshot_error">Nepodařilo se vytvořit snímek obrazovky pro sdílení</string>
+	<string name="share_with_friends">Sdílet s přáteli</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_rater_explanation">Cum vă place această aplicație? Ne-ar fi foarte fericit dacă ați putea revizui pe Google Play. Vă mulțumim pentru sprijinul acordat!</string>
+	<string name="app_rater_later">Mai târziu</string>
+	<string name="app_rater_never">Nu, mulțumesc</string>
+	<string name="app_rater_now">Revizuire acum</string>
+	<string name="app_rater_title">Revizuire aplicația</string>
+	<string name="are_you_sure">Are you sure?</string>
+	<string name="cancel">Anula</string>
+	<string name="help">Ajutor</string>
+	<string name="how_it_works">How it works</string>
+	<string name="intro_more_help">You can get more help at any time by pressing the three dots in the top-right corner.\n\nBy pressing the \"Share\" symbol (to the left of the dots), you can share your best score with your friends.</string>
+	<string name="intro_start">Let\'s start</string>
+	<string name="invitation_teaser">Provoacă-mă în 2048 pentru Android!\n\n%s</string>
+	<string name="leave">Ieșire</string>
+	<string name="meta_credits_title">Credits:</string>
+	<string-array name="meta_description">
+		<item>Alăturați numerele și ajungi la celula cu 2048!</item>
+		<item>Swipe pentru a muta celulele în direcția dorită.</item>
+		<item>Atunci când două celule cu același număr se ciocnesc, acestea vor fuziona într-o singură.</item>
+		<item>2048 este un joc de puzzle captivant, și este cel mai greu dintre toate.</item>
+		<item>Veți câștiga odată ce ați ajuns la celula finală 2048 pe teren.</item>
+		<item>Dar scorul poate merge chiar dincolo de 2048. îmbina cât de multe celule cât e de posibil!</item>
+		<item>În cazul în care celulele sunt blocate și nu se mai pot muta celule, ați pierdut!</item>
+		<item>Primele mișcări sunt simple, dar vei ajunge la celula 2048?</item>
+		<item>2048 este disponibil pentru toate telefoanele și tabletele cu Android 2.2+.</item>
+		<item>Fără publicitate. Fără achiziții.</item>
+		<item>2048 este de 100% gratuit.</item>
+	</string-array>
+	<string name="meta_libraries_title">Această aplicație utilizează următoarele biblioteci și componente:</string>
+	<string name="meta_share_title">Trimite link-ul:</string>
+	<string name="meta_translate_title">Ajută la traducere:</string>
+	<string name="meta_translators_title">Mulțumim traducătorii noștri:</string>
+	<string name="new_game">Joc nou</string>
+	<string name="new_game_sure">Do you really want to start a new game?</string>
+	<string name="next">Continuă</string>
+	<string name="ok">OK</string>
+	<string name="share_screenshot_error">Could not prepare the screenshot for sharing</string>
+	<string name="share_with_friends">Împărtășiți cu prietenii</string>
+</resources>

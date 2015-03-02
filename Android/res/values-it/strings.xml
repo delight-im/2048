@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_rater_explanation">Ti piace questa app? Saremmo molto felici se si potessi votare la nostra applicazione su Google Play. Grazie per il tuo supporto!</string>
+	<string name="app_rater_later">Piu tardi</string>
+	<string name="app_rater_never">No, grazie</string>
+	<string name="app_rater_now">Vota adesso</string>
+	<string name="app_rater_title">Vota questa app</string>
+	<string name="are_you_sure">Sei sicuro?</string>
+	<string name="cancel">Annulla</string>
+	<string name="help">Aiuto</string>
+	<string name="how_it_works">Come funziona</string>
+	<string name="intro_more_help">Puoi ottenere ulteriori informazioni in qualsiasi momento premendo il pulsante con i tre puntini in alto a destra. \n\nPremendo il simbolo \"Condividi\" nella parte superiore, potrai condividere il tuo miglior punteggio con i tuoi amici.</string>
+	<string name="intro_start">Iniziamo</string>
+	<string name="invitation_teaser">Sfidami in 2048 per Android!\n\n%s</string>
+	<string name="leave">Lascia</string>
+	<string name="meta_credits_title">Crediti:</string>
+	<string-array name="meta_description">
+		<item>Unisci i numeri e raggiungi la cella con 2048!</item>
+		<item>Basta scorrere per spostare le celle nella direzione desiderata.</item>
+		<item>Quando due celle con lo stesso numero collidono, si fondono in una unica.</item>
+		<item>2048 è un puzzle game coinvolgente, ed è il più difficile di tutti.</item>
+		<item>Vincerai appena avrei raggiunto la cella con 2048 all\'interno del campo.</item>
+		<item>Ma il tuo punteggio può anche andare oltre 2048. Unisci più celle che puoi!</item>
+		<item>Se il campo è bloccato e non puoi più muovere le celle, hai perso!</item>
+		<item>Le prime mosse sono semplici, ma arriverai davvero alla cella 2048?</item>
+		<item>2048 è disponibile per tutti i telefoni e tablet con Android 2.2 o superiore.</item>
+		<item>Nessun annuncio. Nessun acquisti in-app.</item>
+		<item>2048 è al 100% gratuito.</item>
+	</string-array>
+	<string name="meta_libraries_title">Questa applicazione utilizza le seguenti librerie e componenti:</string>
+	<string name="meta_share_title">Condividi link:</string>
+	<string name="meta_translate_title">Aiutaci a tradurre:</string>
+	<string name="meta_translators_title">Un grazie ai nostri traduttori:</string>
+	<string name="new_game">Nuovo gioco</string>
+	<string name="new_game_sure">Vuoi veramente iniziare un nuovo gioco?</string>
+	<string name="next">Continua</string>
+	<string name="ok">OK</string>
+	<string name="share_screenshot_error">Non posso preparare lo screenshot per la condivisione</string>
+	<string name="share_with_friends">Condividi con gli amici</string>
+</resources>
