@@ -40,6 +40,9 @@ All contributions are welcome! If you wish to contribute, please create an issue
 
 ## Dependencies
 
+ * [AppRater](https://github.com/delight-im/AppRater) — [delight.im](https://github.com/delight-im) — [Apache License 2.0](https://github.com/delight-im/AppRater/blob/master/LICENSE)
+ * [Android-BaseLib](https://github.com/delight-im/Android-BaseLib) — [delight.im](https://github.com/delight-im) — [Apache License 2.0](https://github.com/delight-im/Android-BaseLib/blob/master/LICENSE)
+ * [Android-Progress](https://github.com/delight-im/Android-Progress) — [delight.im](https://github.com/delight-im) — [Apache License 2.0](https://github.com/delight-im/Android-Progress/blob/master/LICENSE)
  * [2048](https://github.com/gabrielecirulli/2048) — [Gabriele Cirulli](https://github.com/gabrielecirulli) — [MIT License](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
  * Android 2.2+
 
