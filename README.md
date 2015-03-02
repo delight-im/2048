@@ -40,7 +40,7 @@ All contributions are welcome! If you wish to contribute, please create an issue
 
 ## Dependencies
 
- * [2048](https://github.com/gabrielecirulli/2048) — [Gabriele Cirulli](https://github.com/gabrielecirulli) — [MIT License](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
+ * [2048](https://github.com/gabrielecirulli/2048) â€” [Gabriele Cirulli](https://github.com/gabrielecirulli) â€” [MIT License](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
  * Android 2.2+
 
 ## Disclaimer
