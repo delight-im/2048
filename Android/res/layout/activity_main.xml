@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 	android:gravity="center">
-	<im.delight.a2048.GameWebView
+	<im.delight.android.webview.AdvancedWebView
 		android:id="@+id/webviewGame"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"

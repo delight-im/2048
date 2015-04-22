@@ -11,3 +11,7 @@
 -keepattributes EnclosingMethod,*Annotation*
 
 ##### APP-SPECIFIC
+
+# Don't break "Android-AdvancedWebView" library
+-keep class * extends android.webkit.WebChromeClient { *; }
+-dontwarn im.delight.android.webview.**

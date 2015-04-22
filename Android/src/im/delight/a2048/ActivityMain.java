@@ -16,6 +16,9 @@ package im.delight.a2048;
  * limitations under the License.
  */
 
+import android.graphics.Bitmap;
+import android.content.Intent;
+import im.delight.android.webview.AdvancedWebView;
 import java.io.File;
 import java.util.Random;
 import im.delight.android.baselib.Social;
@@ -43,14 +46,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ActivityMain extends Activity implements GameListener, ViewScreenshot.Callback {
+public class ActivityMain extends Activity implements AdvancedWebView.Listener, ViewScreenshot.Callback {
 
 	private static final String GAME_DOWNLOAD_URL = "http://www.delight.im/get/2048";
 	private static final String GAME_HTML_URL = "file:///android_asset/Game/index.html";
 	private static final String HTML_NEW_LINE = "<br />";
 	private static final String HTML_NEW_PARAGRAPH = "<br /><br />";
 	private static final String SCREENSHOT_FILENAME = "2048";
-	private GameWebView mWebViewGame;
+	private AdvancedWebView mWebViewGame;
 	private View mViewProgress;
 	private AlertDialog mAlertDialog;
 	private SimpleProgressDialog mSimpleProgressDialog;
@@ -67,12 +70,11 @@ public class ActivityMain extends Activity implements GameListener, ViewScreensh
 		setContentView(R.layout.activity_main);
 
 		// get the references to all views
-		mWebViewGame = (GameWebView) findViewById(R.id.webviewGame);
+		mWebViewGame = (AdvancedWebView) findViewById(R.id.webviewGame);
 		mViewProgress = findViewById(R.id.viewProgress);
 
 		// set up the WebView
-		mWebViewGame.init(this);
-		mWebViewGame.setGameListener(this);
+		mWebViewGame.setListener(this, this);
 
 		// load the local HTML/CSS/JS
 		mWebViewGame.loadUrl(GAME_HTML_URL);
@@ -266,6 +268,36 @@ public class ActivityMain extends Activity implements GameListener, ViewScreensh
 		new ViewScreenshot(ActivityMain.this, ActivityMain.this).from(mWebViewGame).asFile(SCREENSHOT_FILENAME).build();
 	}
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        super.onActivityResult(requestCode, resultCode, intent);
+
+        mWebViewGame.onActivityResult(requestCode, resultCode, intent);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (!mWebViewGame.onBackPressed()) { return; }
+
+        super.onBackPressed();
+    }
+
+	@SuppressLint("NewApi")
+	@Override
+	protected void onResume() {
+		super.onResume();
+
+		mWebViewGame.onResume();
+	}
+
+	@SuppressLint("NewApi")
+	@Override
+	protected void onPause() {
+		mWebViewGame.onPause();
+
+		super.onPause();
+	}
+
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
@@ -274,6 +306,9 @@ public class ActivityMain extends Activity implements GameListener, ViewScreensh
 			mAlertDialog.dismiss();
 			mAlertDialog = null;
 		}
+
+		mWebViewGame.onDestroy();
+
 		setLoading(false);
 	}
 
@@ -296,19 +331,6 @@ public class ActivityMain extends Activity implements GameListener, ViewScreensh
 
 	private void startNewGame() {
 		dispatchJavaScript("(function() { gameManager.restart(); })();");
-	}
-
-	@Override
-	public void onLoaded() {
-		runOnUiThread(new Runnable() {
-
-			@Override
-			public void run() {
-				mViewProgress.setVisibility(View.GONE);
-				mWebViewGame.setVisibility(View.VISIBLE);
-			}
-
-		});
 	}
 
 	private void setLoading(boolean loading) {
@@ -359,5 +381,30 @@ public class ActivityMain extends Activity implements GameListener, ViewScreensh
 		setLoading(false);
 		Toast.makeText(ActivityMain.this, R.string.share_screenshot_error, Toast.LENGTH_SHORT).show();
 	}
+
+    @Override
+    public void onPageStarted(String url, Bitmap favicon) { }
+
+    @Override
+    public void onPageFinished(String url) {
+		runOnUiThread(new Runnable() {
+
+			@Override
+			public void run() {
+				mViewProgress.setVisibility(View.GONE);
+				mWebViewGame.setVisibility(View.VISIBLE);
+			}
+
+		});
+    }
+
+    @Override
+    public void onPageError(int errorCode, String description, String failingUrl) { }
+
+    @Override
+    public void onDownloadRequested(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) { }
+
+    @Override
+    public void onExternalPageRequest(String url) { }
 
 }
