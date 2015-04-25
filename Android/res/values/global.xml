@@ -4,7 +4,7 @@
 	<string name="meta_share_body" translatable="false">www.delight.im/get/2048</string>
 	<string name="meta_translate_body" translatable="false">www.localize.im/v/3r</string>
 	<string name="meta_credits_body" translatable="false">This is an unofficial version of the game. The original version has been developed by Gabriele Cirulli, based on 1024 by Veewo Studio and similar to Threes by Sirvo LLC. It has been released as open-source software under the terms of the MIT License and is available from: github.com/gabrielecirulli/2048</string>
-	<string name="meta_translators_body" translatable="false">+ Aaron (HU)\n+ Filip Procházka (CS)\n+ Filippo Perissinotto (IT)\n+ Ignas P. (LT)\n+ josep.a (CA)\n+ Mehmet Onur Akkaya (TR)\n+ VelocityHD (RO)\n+ Waltrojarus (ES)</string>
+	<string name="meta_translators_body" translatable="false">+ Aaron (HU)\n+ Filip Procházka (CS)\n+ Filippo Perissinotto (IT)\n+ Ignas P. (LT)\n+ josep.a (CA)\n+ Mehmet Onur Akkaya (TR)\n+ VelocityHD (RO)\n+ Vasilis K. (EL)\n+ Waltrojarus (ES)</string>
 	<string name="meta_libraries_body" translatable="false">+ AppRater (delight.im / Apache License 2.0)\n+ Android-BaseLib (delight.im / Apache License 2.0)\n+ Android-Progress (delight.im / Apache License 2.0)\n+ Android-AdvancedWebView (delight.im / Apache License 2.0)\n+ Android (The Android Open Source Project / Apache License 2.0)\n+ Touch Gesture Icons by Mobile Tuxedo</string>
 	<dimen name="fontsize_normal">16sp</dimen>
 </resources>
